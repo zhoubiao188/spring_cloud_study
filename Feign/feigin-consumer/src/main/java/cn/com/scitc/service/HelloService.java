@@ -7,5 +7,18 @@
 
 package cn.com.scitc.service;
 
-public class HelloService {
+import cn.com.scitc.UserDTO;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.*;
+
+@FeignClient("provider")
+public interface HelloService {
+    @GetMapping("/hello")
+    String hello(@RequestParam("name") String name);
+
+    @PostMapping("/user")
+    String addUser(@RequestBody UserDTO userDTO);
+
+    @PutMapping("/user")
+    String updateUser(@RequestBody UserDTO userDTO);
 }
