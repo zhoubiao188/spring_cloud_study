@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eureka
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+
+server:
+  port: 1111
