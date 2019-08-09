@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19fbb684-8ab6-47f4-91ce-98a2ce57c435" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/main/java/cn/com/scitc/rabbit/DirectReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RabbitMQ/src/test/java/cn/com/scitc/rabbit/RabbitmqApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/scitc/BulkheadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/scitc/CircuitBreakerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/scitc/RetryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fegin/provider/src/main/java/cn/com/scitc/provider/SayHelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Feign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Feign/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Feign/feigin-consumer/src/main/java/cn/com/scitc/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Feign/feigin-consumer/src/main/java/cn/com/scitc/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Feign/feigin-consumer/src/main/java/cn/com/scitc/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Feign/feigin-consumer/src/main/java/cn/com/scitc/service/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Feign/provider/src/main/java/cn/com/scitc/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Feign/provider/src/main/java/cn/com/scitc/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Feign/provider/src/test/java/cn/com/scitc/PwdTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Feign/provider/src/test/java/cn/com/scitc/PwdTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FeignAdvanced/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FeignAdvanced/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FeignAdvanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FeignAdvanced/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Loadbalancer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Loadbalancer/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/scitc/RetryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2">
+              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/scitc/TimeLimiterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/Callable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/scitc/BulkheadTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/scitc/CircuitBreakerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-24">
+              <caret line="126" column="42" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/scitc/ReteLimiterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="41" column="18" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="18" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/scitc/CircuitBreakerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/scitc/ReteLimiterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/scitc/BulkheadTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/scitc/RetryTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/scitc/TimeLimiterTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/maven/repo" />
+        <option name="mavenHome" value="$USER_HOME$/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="$USER_HOME$/maven/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="48" />
+    <option name="y" value="23" />
+    <option name="width" value="1392" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Resilience4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resilience4j" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resilience4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resilience4j" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resilience4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resilience4j" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resilience4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resilience4j" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resilience4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resilience4j" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="scitc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resilience4j" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resilience4j" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TimeLimiterTest.fn1">
+    <configuration name="BulkheadTest.fn1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Resilience4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.scitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.scitc" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.scitc.BulkheadTest" />
+      <option name="METHOD_NAME" value="fn1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BulkheadTest.fn2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Resilience4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.scitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.scitc" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.scitc.BulkheadTest" />
+      <option name="METHOD_NAME" value="fn2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BulkheadTest.fn3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Resilience4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.scitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.scitc" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.scitc.BulkheadTest" />
+      <option name="METHOD_NAME" value="fn3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetryTest.fn1A" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Resilience4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.scitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.scitc" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.scitc.RetryTest" />
+      <option name="METHOD_NAME" value="fn1A" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeLimiterTest.fn1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Resilience4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.scitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.scitc" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.scitc.TimeLimiterTest" />
+      <option name="METHOD_NAME" value="fn1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TimeLimiterTest.fn1" />
+        <item itemvalue="JUnit.RetryTest.fn1A" />
+        <item itemvalue="JUnit.BulkheadTest.fn3" />
+        <item itemvalue="JUnit.BulkheadTest.fn2" />
+        <item itemvalue="JUnit.BulkheadTest.fn1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19fbb684-8ab6-47f4-91ce-98a2ce57c435" name="Default Changelist" comment="" />
+      <created>1564993933264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564993933264</updated>
+      <workItem from="1564993934747" duration="7206000" />
+      <workItem from="1565053487026" duration="495000" />
+      <workItem from="1565059770680" duration="1570000" />
+      <workItem from="1565253359379" duration="5123000" />
+      <workItem from="1565315374408" duration="7736000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ReteLimiterTest_fn1 - 2019.08.09 at 12h 27m 09s.xml">
+      <configuration name="ReteLimiterTest.fn1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BulkheadTest_fn1 - 2019.08.09 at 12h 43m 27s.xml">
+      <configuration name="BulkheadTest.fn1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BulkheadTest_fn1 - 2019.08.09 at 12h 43m 55s.xml">
+      <configuration name="BulkheadTest.fn1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BulkheadTest_fn2 - 2019.08.09 at 12h 49m 54s.xml">
+      <configuration name="BulkheadTest.fn2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BulkheadTest_fn3 - 2019.08.09 at 12h 59m 05s.xml">
+      <configuration name="BulkheadTest.fn3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BulkheadTest_fn3 - 2019.08.09 at 12h 59m 13s.xml">
+      <configuration name="BulkheadTest.fn3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RetryTest_fn1A - 2019.08.09 at 13h 12m 56s.xml">
+      <configuration name="RetryTest.fn1A" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RetryTest_fn1A - 2019.08.09 at 13h 18m 52s.xml">
+      <configuration name="RetryTest.fn1A" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeLimiterTest_fn1 - 2019.08.09 at 14h 00m 35s.xml">
+      <configuration name="TimeLimiterTest.fn1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeLimiterTest_fn1 - 2019.08.09 at 14h 03m 31s.xml">
+      <configuration name="TimeLimiterTest.fn1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22130000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="48" y="23" width="1392" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14888889" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32694763" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/maven/repo/io/github/resilience4j/resilience4j-circuitbreaker/0.13.2/resilience4j-circuitbreaker-0.13.2.jar!/io/github/resilience4j/circuitbreaker/CircuitBreakerConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1431">
+          <caret line="16" column="70" lean-forward="true" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/scitc/CircuitBreakerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="126" column="42" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/scitc/ReteLimiterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/scitc/BulkheadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/scitc/RetryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/Callable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/scitc/TimeLimiterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Resilience4j</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
