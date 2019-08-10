@@ -1,0 +1,55 @@
+spring:
+  application:
+    name: consumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka
+
+# Aop式 Retry
+#resilience4j.retry:
+#  retryAspectOrder: 399
+#  backends:
+#    retryBackendA:
+#      maxRetryAttempts: 3
+#      waitDuration: 600
+#      eventConsumerBufferSize: 1
+#      enableExponentialBackoff: true
+#      exponentialBackoffMultiplier: 2
+#      enableRandomizedWait: false
+#     randomizedWaitFactor: 2
+#      retryExceptionPredicate: cn.com.scitc.RecordFailurePredicate
+#      retryExceptions:
+#        - java.io.IOException
+#      ignoreExceptions:
+#        - cn.com.scitc.exception.IgnoredException
+
+
+# Aop式 CircuitBreaker
+#resilience4j.circuitbreaker:
+#  backends:
+#    backendA:
+#      ringBufferSizeInClosedState: 5
+#      ringBufferSizeInHalfOpenState: 3
+#      waitInterval: 5000
+#      failureRateThreshold: 50
+#      eventConsumerBufferSize: 10
+#      registerHealthIndicator: true
+#      recordFailurePredicate: cn.com.scitc.RecordFailurePredicate
+#      recordExceptions:
+#        - org.springframework.web.client.HttpServerErrorException
+#      ignoreExceptions:
+#        - org.springframework.web.client.HttpClientErrorException
+
+#Aop 式限流
+#resilience4j.ratelimiter:
+#  limiters:
+#    backendA:
+#      limitForPeriod: 1
+#      limitRefreshPeriodInMillis: 5000
+#      timeoutInMillis: 5000
+#      subscribeForEvents: true
+#      registerHealthIndicator: true
+#      eventConsumerBufferSize: 100
+server:
+  port: 5001
