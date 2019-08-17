@@ -28,7 +28,6 @@
         <oauth.version>2.3.6.RELEASE</oauth.version>
         <!-- Spring Security OAuth2 AutoConfigure 版本 -->
         <oauth-auto.version>2.1.6.RELEASE</oauth-auto.version>
-
         <rest-assured.version>3.1.0</rest-assured.version>
 
     </properties>
