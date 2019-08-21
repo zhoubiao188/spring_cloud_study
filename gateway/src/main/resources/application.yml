@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: path_route
+          uri: http://httpbin.org
+          predicates:
+            - Path=/get
