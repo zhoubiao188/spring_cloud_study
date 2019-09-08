@@ -14,7 +14,6 @@
     <name>oauth_server</name>
     <packaging>war</packaging>
     <description>this is oauth2 server</description>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
