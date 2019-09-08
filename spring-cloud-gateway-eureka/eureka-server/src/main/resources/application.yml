@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka
+
+server:
+  port: 1111
+
+#是否将eureka本身注册到注册中心这里false
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+
+

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: rest-provider-1
+
+server:
+  port: 8001
+
+#将rest-provier-1注册到eureka实例上
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka

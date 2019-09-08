@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: rest-consumer-1
+
+server:
+  port: 8002
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
