@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: method_route
+          uri: https://blog.csdn.net/qwe86314
+          predicates:
+            - Method=GET
