@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: time_route
+          uri: https://blog.csdn.net/qwe86314
+          predicates:
+#            - After=2019-09-13T17:30:00+08:00[Asia/Shanghai] 在这个时间之后转发
+#            - Before=2019-09-13T17:42:00+08:00[Asia/Shanghai]  在这个时间之前转发
+#            - Between=2019-09-13T17:45:00+08:00[Asia/Shanghai],2019-09-13T17:46:00+08:00[Asia/Shanghai] 在这个时间范围转发
