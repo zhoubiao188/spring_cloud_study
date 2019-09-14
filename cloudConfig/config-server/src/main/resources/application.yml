@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zhoubiao188/spring_cloud_study.git
+          search-paths: /**
+          username: zhoubiao188
+          password: zbxhDL13
+          default-label: master
+server:
+  port: 8081
+
+
