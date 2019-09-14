@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-predicate/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-predicate-method/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-predicate-path/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-predicate-query/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-predicate-group/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-filter-AddRequestParameter/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-filter-AddRequestParameter/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-filter-AddRequestParameter/comsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-filter-AddRequestParameter/gateway/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/gateway-filter-AddRequestParameter/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

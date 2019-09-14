@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+       - id: mehtod_path_time
+        uri: http://cxytiandi.com/course
+        predicates:
+        - Method=GET
+        - Query=vipType,1
+        - After=2019-09-14T10:16:13+08:00[Asia/Shanghai]
