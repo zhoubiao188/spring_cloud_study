@@ -14,6 +14,8 @@
     <name>gateway-predicate-query</name>
     <description>this is gateway-predicate-query</description>
 
+
+
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
