@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86ea8610-34d6-4a22-b5af-65c273b0e6eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gateway-filter-AddRequestParameter/common/src/main/java/cn/com/scitc/UserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-filter-AddRequestParameter/comsumer/src/main/java/cn/com/scitc/controller/FeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-filter-AddRequestParameter/comsumer/src/main/java/cn/com/scitc/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-filter-AddRequestParameter/provider/src/main/java/cn/com/scitc/controller/UserController.java" afterDir="false" />
-    </list>
+    <list default="true" id="86ea8610-34d6-4a22-b5af-65c273b0e6eb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/gateway-predicate/target/" />
@@ -35,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gateway-filter-AddRequestParameter/gateway/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="28" selection-end-line="26" />
+            <state relative-caret-position="38">
+              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -255,6 +250,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -356,16 +352,15 @@
       <updated>1568367098466</updated>
       <workItem from="1568367100062" duration="6285000" />
       <workItem from="1568426386107" duration="2111000" />
-      <workItem from="1568430769598" duration="3688000" />
+      <workItem from="1568430769598" duration="4813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12084000" />
+    <option name="totallyTimeSpent" value="13209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="87" y="23" width="1426" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23699422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -377,7 +372,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5108557" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5108557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991881" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -622,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway-filter-AddRequestParameter/gateway/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="28" selection-end-line="26" />
+        <state relative-caret-position="38">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
