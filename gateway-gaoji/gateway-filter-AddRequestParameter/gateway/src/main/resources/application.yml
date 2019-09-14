@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: add_request_parameter_route
+          uri: lb://consumer
+          filters:
+            - AddRequestHeader=Content-Type, application/json
+          predicates:
+            - Method=POST
+server:
+  port: 8083
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
