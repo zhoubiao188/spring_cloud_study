@@ -5,11 +5,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/zhoubiao188/spring_cloud_study.git
-          search-paths: /**
+          uri: https://github.com/zhoubiao188/spring_cloud_study/tree/master/cloudConfig
+          search-paths: configRepo/client1
           username: zhoubiao188
           password: zbxhDL13
-          default-label: master
 server:
   port: 8081
 
