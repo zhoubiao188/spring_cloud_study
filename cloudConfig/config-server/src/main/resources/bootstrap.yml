@@ -6,7 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/zhoubiao188/spring_cloud_study.git
-          search-paths: configRepo/client1
+          search-paths: cloudConfig/client1
           username: zhoubiao188
           password: zbxhDL13
 server:
