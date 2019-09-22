@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/zhoubiao188/cloud-config-repo.git
+         search-paths: client1
+          username: zhoubiao188
+          password:
+          #search-paths: {application}
+
+server:
+  port: 8081
+
+
