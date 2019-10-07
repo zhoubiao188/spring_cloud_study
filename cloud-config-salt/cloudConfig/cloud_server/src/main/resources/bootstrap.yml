@@ -1,0 +1,11 @@
+encrypt:
+  key-store:
+    location: config-server.keystore
+    alias: config-server
+    password: 123456
+    secret: 123456
+#spring:
+#  security:
+#    user:
+#      name: jishu
+#      password: 123456
