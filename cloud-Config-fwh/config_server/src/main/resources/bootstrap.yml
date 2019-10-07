@@ -1,0 +1,18 @@
+encrypt:
+  key-store:
+    location: config-server.keystore
+    alias: config-server
+    password: 123456
+    secret: 123456
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
+
+spring:
+  security:
+    user:
+      name: jishu
+      password: 123456
+#      password: 123456
