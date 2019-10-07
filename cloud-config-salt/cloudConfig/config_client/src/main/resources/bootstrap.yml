@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: config-server
+  # 本地配置
+  # profiles:
+  #   active: native
+  cloud:
+    config:
+      profile: dev
+      label: master
+      uri: http://localhost:8081/
+server:
+  port: 8002
